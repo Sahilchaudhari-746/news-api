@@ -1,0 +1,16 @@
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.4s;
+}
+.row{
+    text-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.1); /* Enlarge the card on hover */
+}
+.card:hover {
+    height: 100%;
+    transition-duration: 0.5s;
+}
